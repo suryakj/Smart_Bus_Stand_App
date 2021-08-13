@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TrackMyBus</string>
+    <string name="title_activity_g_p_s_location">Map</string>
+    <string name="google_maps_key">AIzaSyAXobMHfx0NOMjlgA4R8noChqhU1ixkulQ</string>
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="or">OR</string>
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="new_user_register_now">New User? Register Now</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

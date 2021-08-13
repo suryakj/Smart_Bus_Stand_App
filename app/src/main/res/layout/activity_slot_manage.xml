@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFCFC"
+    tools:context=".SlotManage">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:background="#FFFEFE"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.926">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/s9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/GREEN"
+            android:onClick="slot9del">
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="122dp"
+                android:layout_height="36dp"
+                android:text="SLOT9"
+                android:textColor="#020202"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.127"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView4"
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:background="#FFFEFE"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.824">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/s8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/GREEN"
+            android:onClick="slot8del">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="122dp"
+                android:layout_height="36dp"
+                android:text="SLOT8"
+                android:textColor="#020202"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.131"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:background="#FFFEFE"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.725">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/s7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/GREEN"
+            android:onClick="slot7del">
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="122dp"
+                android:layout_height="36dp"
+                android:text="SLOT7"
+                android:textColor="#020202"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.135"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:background="#FFFEFE"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.626">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/s6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/GREEN"
+            android:onClick="slot6del">
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="122dp"
+                android:layout_height="36dp"
+                android:text="SLOT6"
+                android:textColor="#020202"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.137"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:background="#FFFEFE"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.524">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/s5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/GREEN"
+            android:onClick="slot5del">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="122dp"
+                android:layout_height="36dp"
+                android:text="SLOT5"
+                android:textColor="#020202"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.133"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.533" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:background="#FFFEFE"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.425">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/s4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/GREEN"
+            android:onClick="slot4del">
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="122dp"
+                android:layout_height="36dp"
+                android:text="SLOT4"
+                android:textColor="#020202"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.125"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.466" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:background="#FFFEFE"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/s3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/GREEN"
+            android:onClick="slot3del">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="122dp"
+                android:layout_height="36dp"
+                android:text="SLOT3"
+                android:textColor="#020202"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.125"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:background="#FFFEFE"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/s2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/GREEN"
+            android:onClick="slot2del">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="122dp"
+                android:layout_height="36dp"
+                android:text="SLOT2"
+                android:textColor="#020202"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.122"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.466" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="332dp"
+        android:layout_height="54dp"
+        android:background="#FFFEFE"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/s1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/GREEN"
+            android:onClick="slot1del">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="122dp"
+                android:layout_height="36dp"
+                android:text="SLOT1"
+                android:textColor="#020202"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.122"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.51" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="227dp"
+        android:layout_height="50dp"
+        android:text="Manage Slot"
+        android:textColor="#090909"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.194"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

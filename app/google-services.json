@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "810182610302",
+    "firebase_url": "https://bustracker-cf162-default-rtdb.firebaseio.com",
+    "project_id": "bustracker-cf162",
+    "storage_bucket": "bustracker-cf162.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810182610302:android:0735dd9273bb729a2e772f",
+        "android_client_info": {
+          "package_name": "com.example.trackmybus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810182610302-sg6n7ffj84e1oggknnl2ads04cfbcb4a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvrSsRxMVtLZ5sePWkFGJJMgg8EvOFv5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810182610302-sg6n7ffj84e1oggknnl2ads04cfbcb4a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
